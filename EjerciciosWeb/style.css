@@ -7,8 +7,9 @@ body{
     height: 200px;
     background-color: lightblue;
     border: 2px solid black;
-    transition: background-color 0.3s; /* suaviza el cambio */
+    transition: background-color 0.3s, width 0.5s; /* suaviza el cambio */
 }
 .div_p:hover {
-    background-color: violet; /* color al pasar el cursor */
+    background-color: violet;
+    width: 500px; /* color al pasar el cursor */
 }
