@@ -4,7 +4,7 @@ body{
 
 .div_p {
     width: 200px;
-    height: 200px;
+    height: 400px;
     background-color: lightblue;
     border: 2px solid black;
     transition: background-color 0.3s, width 0.5s; /* suaviza el cambio */
