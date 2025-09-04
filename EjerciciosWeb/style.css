@@ -1,15 +1,13 @@
 body{
     background-color: #1C83C2;
 }
-
-.div_p{
-    width: 200px;
-    height: 400px;
-    background-color: lightblue;
-    border: 2px solid black;
-    transition: background-color 0.3s, width 0.5s; /* suaviza el cambio */
+tr{
+    transition: all 1s;
 }
-.div_p:hover {
-    background-color: violet;
-    width: 500px; /* color al pasar el cursor */
+tr:hover{
+    background-color: rgb(211, 198, 18);
+}
+
+th:hover{
+    color: rgb(158, 55, 153);
 }

@@ -10,6 +10,7 @@ body{
 header{
     background-color: blanchedalmond;
     padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1 p a{
   display: inline; /* el título ya no ocupa toda la línea */
