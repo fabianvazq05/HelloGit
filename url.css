@@ -20,6 +20,10 @@ nav ul li {
   display: inline;
   margin-right: 20px; /* espacio entre enlaces */
 }
+.div_ul{
+  display: inline-block;
+  margin-right: 20px; /* espacio entre enlaces */
+}
 h1{
     text-align: center;
     margin: 1em;
