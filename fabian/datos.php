@@ -15,6 +15,7 @@ $nombre_get="Aaron"
         <label for="">$nombre_get
             <input type="text" name="nombre" id="">
         <br>
+        <h1>Holaaaaa</h1>
         </label>
         <label for="">primer apellido</label>
             <input type="text" name="primerApellido" id="">
