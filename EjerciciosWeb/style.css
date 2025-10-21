@@ -1,0 +1,13 @@
+body{
+    background-color: #1C83C2;
+}
+tr{
+    transition: all 1s;
+}
+tr:hover{
+    background-color: rgb(211, 198, 18);
+}
+
+th:hover{
+    color: rgb(158, 55, 153);
+}
