@@ -1,5 +1,12 @@
 <?php
 $nombre_get="Aaron"
+// Incluir el archivo de conexión
+include 'conexion.php'; 
+// Ahora puedes usar la variable $conexion para hacer consultas:
+$consulta = "SELECT * FROM nombre_de_tu_tabla"; 
+$resultado = $conexion->query($consulta);
+// ... código para mostrar los resultados ...
+$conexion->close(); // Cierra la conexión al finalizar
 ?>
 
 <!DOCTYPE html>
